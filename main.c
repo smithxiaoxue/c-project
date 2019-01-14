@@ -43,6 +43,17 @@ int main()
                 scanf("%c" & x);
                 scanf("%c" & x);
             }
+            if (a == 3){
+                char x;
+                printf("当前余额为：%d\n",qian);
+                printf("点击回车继续\n");
+                scanf("%c" & x);
+                scanf("%c" & x);
+            }
+             if (a == 4){
+                 printf("程序结束\n");
+                 break;
+             }
         }
 
         return 0;
